@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ankita Kumari — Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">Ankita Kumari</h1>
+      <p class="tagline">B.Tech (AI) • Aspiring Data Scientist • Web & C Programmer</p>
+      <nav class="topnav" id="topnav">
+        <a href="index.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+        <a href="#contact">Contact</a>
+        <button id="printBtn" class="btn small">Print</button>
+        <button id="menuToggle" class="btn small hide-desktop">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary card" id="summary">
+      <h2>Professional Summary</h2>
+      <p>Motivated final-year B.Tech (Artificial Intelligence) student with experience building web apps, C-based games, and data-driven projects. Skilled in problem solving and eager to contribute to internships and collaborative projects.</p>
+    </section>
+
+    <section class="experience card" id="experience">
+      <h2>Experience & Projects</h2>
+
+      <article class="job">
+        <h3>GRYN — Gamified Sustainability App (University Project)</h3>
+        <p class="meta">Role: Full-stack Developer • 2025</p>
+        <ul>
+          <li>Implemented user authentication, leaderboard, and proof image preview.</li>
+          <li>Built gamification features: points, levels, badges, and referral codes.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Knapsack Game using SDL3 (Personal)</h3>
+        <p class="meta">Role: Developer • 2024</p>
+        <ul>
+          <li>Created an interactive game in C using SDL3 demonstrating the 0/1 knapsack algorithm.</li>
+          <li>Handled user input, rendering, and score calculation.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>AlphaFold Exploration (Research Idea)</h3>
+        <p class="meta">Role: Researcher (prototype) • 2024</p>
+        <ul>
+          <li>Explored protein structure prediction workflow and created a concept notebook for future work.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="education card" id="education">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Artificial Intelligence</strong> — National Institute of Technology, Batch 2022–2026</p>
+      <p>Relevant coursework: Machine Learning, Data Structures & Algorithms, Computer Networks, Database Systems.</p>
+    </section>
+
+    <section class="skills card" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Languages: C, Python, JavaScript</li>
+        <li>Web: HTML5, CSS3, Bootstrap, jQuery</li>
+        <li>Tools: Git, SQLite, Streamlit</li>
+        <li>ML: scikit-learn, pandas, basic PyTorch</li>
+      </ul>
+    </section>
+
+    <aside class="contact card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ankita.kumari@example.com">ankita.kumari@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/ankita-ai" target="_blank" rel="noopener">github.com/ankita-ai</a></p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Location: Patna, Bihar, India</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Ankita Kumari — Resume & Bio-data</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
